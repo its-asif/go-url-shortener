@@ -1,19 +1,19 @@
 
 
-# 🔗 URL Shortener
+# URL Shortener
 
 A simple URL shortener built with **Go**, **PostgreSQL**, **SQLX**, and **Gorilla Mux**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Shorten any long URL
 - Redirect to original URL using short code
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ### 1. Clone the repo
 
@@ -50,9 +50,9 @@ go run main.go
 
 ---
 
-## 📦 API Endpoints
+## API Endpoints
 
-### ➕ Shorten a URL
+### Shorten a URL
 
 ```http
 POST /shorten
@@ -63,7 +63,7 @@ Content-Type: application/json
 }
 ```
 
-### 🔁 Redirect
+### Redirect
 
 ```http
 GET /<short_code>
