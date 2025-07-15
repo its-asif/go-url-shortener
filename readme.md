@@ -68,3 +68,7 @@ Content-Type: application/json
 ```http
 GET /<short_code>
 ```
+
+
+## Demo
+![How it works](./screen-record/howto.gif)
